@@ -92,14 +92,14 @@ export default class AboutUs extends React.Component {
                               flexDirection:'row',
                         }}>
                           <View>
-                            <TouchableOpacity onPress={() => Linking.openURL('https://www.udemy.com/the-complete-react-native-and-redux-course/learn/lecture/5744082#questions')}>
+                            <TouchableOpacity onPress={() => Linking.openURL('https://www.google.com/')}>
                                 <Image source={require('./src/images/button_cta_2019-07-31/button_cta.png')} 
                                       style={{alignSelf: 'flex-start'}} />
                             </TouchableOpacity>
                           </View>
                     
                           <View>
-                            <TouchableOpacity onPress={() => Linking.openURL('https://www.udemy.com/the-complete-react-native-and-redux-course/learn/lecture/5744082#questions')}>
+                            <TouchableOpacity onPress={() => Linking.openURL('https://www.google.com/')}>
                                 <Image source={require('./src/images/button_cta_2019-07-312/button_cta.png')} 
                                       style={{alignSelf: 'flex-end'}} />
                             </TouchableOpacity>
