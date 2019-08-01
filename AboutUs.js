@@ -60,7 +60,9 @@ export default class AboutUs extends React.Component {
                     fontStyle: 'Poppins-ExtraLight',
                     paddingLeft: 9,
                     fontSize: 18,
-                    color: '#fff'
+                    color: '#fff',
+                    lineHeight: 28
+
                     }}>
                             Phase Shift is an annual tech 
                             symposium of BMS College Of 
