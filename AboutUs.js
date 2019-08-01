@@ -50,7 +50,7 @@ export default class AboutUs extends React.Component {
                 </View>
 
                 <View style={{
-                    padding:30,
+                    padding:28,
                     alignItems: 'center',
                     justifyContent: 'center'
                 }}>
@@ -85,7 +85,7 @@ export default class AboutUs extends React.Component {
                   </View>
                 </View>
                     <View style={{
-                              padding:30,
+                              padding:35,
                               flex: 1,
                               flexWrap: 'wrap', 
                               justifyContent:'space-between', 
