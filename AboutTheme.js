@@ -6,7 +6,7 @@ import {
   View,
   ScrollView,
   SafeAreaView,
-  Image,
+  
   ImageBackground
 } from 'react-native';
 
@@ -18,6 +18,7 @@ export default class AboutTheme extends React.Component {
       <SafeAreaView>
       <ScrollView
           contentInsetAdjustmentBehavior="automatic">
+          <ImageBackground source={require('./src/images/BACKG5.png')} 
             style={{
               width: '100%',
               flex:1,
@@ -82,6 +83,7 @@ export default class AboutTheme extends React.Component {
                         </Text>
                     </View>
                </View>
+               
 
                 </ImageBackground>
         </ScrollView>
