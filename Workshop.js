@@ -30,7 +30,7 @@ export default class Workshop extends React.Component {
                 resizeMode: 'contain',
                 padding:10,
                 paddingRight:0,
-                paddingTop:3
+                paddingTop:10
               }}>
                 <Image source={require('./src/images/ps_logo_white_2019-07-31/ps_logo_white.png')} />
               </View>
