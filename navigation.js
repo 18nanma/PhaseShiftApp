@@ -83,6 +83,9 @@ const AppTabNavigator = createMaterialTopTabNavigator({
         backgroundColor: '#213368',
         borderTopWidth: 0.5
       },
+      indicatorStyle: {
+        height: 0
+      },
       showIcons: true
 
     }
