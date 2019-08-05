@@ -11,8 +11,8 @@ import {
   TouchableOpacity,
   Modal
 } from 'react-native';
-import AppTeamNumbers from './src/components/AppTeamNumbers'
-import CoreNumbers from './src/components/CoreNumbers'
+import AppTeamNumbers from './src/components/AppTeamNumbers';
+import CoreNumbers from './src/components/CoreNumbers';
 
 
 export default class TeamPage extends React.Component {
