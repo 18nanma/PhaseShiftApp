@@ -7,24 +7,20 @@ import {
   ScrollView,
   SafeAreaView,
   Image,
-  ImageBackground
 } from 'react-native';
+import LinearGradient from 'react-native-linear-gradient';
+
 
 export default class Workshop extends React.Component {
   render() {
     return (
       <Fragment>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-      <ScrollView
-          contentInsetAdjustmentBehavior="automatic">
-            <ImageBackground source={require('./src/images/BACKG5.png')} 
-            style={{
-              width: '100%',
-              flex:1,
-              height: '100%',
-              resizeMode: 'cover',
-              }}>
+        <LinearGradient colors={['#E38217','#00008B']}> //#00F5FF     
+          <SafeAreaView>
+            <ScrollView
+              contentInsetAdjustmentBehavior="automatic">
+           
               <View style={{
                 alignItems:'flex-end',
                 resizeMode: 'contain',
@@ -65,10 +61,9 @@ export default class Workshop extends React.Component {
                         </Text>
                     </View>
                </View>
-
-                </ImageBackground>
-        </ScrollView>
-        </SafeAreaView>
+            </ScrollView>
+          </SafeAreaView>
+        </LinearGradient>
       </Fragment>
         
       
