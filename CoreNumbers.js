@@ -91,47 +91,53 @@ export default class CoreNumbers extends Component {
   render() {
     return (
      <Fragment>
-        <View style={{flex:1}}>
+       <View style={{
+         backgroundColor:'#213368',
+         borderRadius: 10,
+         padding:15
+       }}>
+        <View>
             <Image source={require('src/images/arjun.JPG')} style={{alignItems: 'flex-start', height:19, width:19, borderRadius:6}} />
             <Text style={{color:'white', fontSize: 19, padding: 13}}> Arjun M N</Text>
             <TouchableOpacity onPress={this.dialCallA} activeOpacity={0.7} style={{alignItems: 'flex-end'}} >
             <Image source={require('src/images/dialer_app_2019-08-04/dialer_app.png')} style={{ height:19, width:19, borderRadius:6}}/>
             </TouchableOpacity>
       </View>
-      <View style={{flex:1}}>
+      <View>
             <Image source={require('src/images/harshitha.jpg')} style={{alignItems: 'flex-start', height:19, width:19, borderRadius:6}} />
             <Text style={{color:'white', fontSize: 19, padding: 13}}> Harshitha G </Text>
             <TouchableOpacity onPress={this.dialCallH} activeOpacity={0.7} style={{alignItems: 'flex-end'}} >
             <Image source={require('src/images/dialer_app_2019-08-04/dialer_app.png')} style={{ height:19, width:19, borderRadius:6}} />
             </TouchableOpacity>
       </View>
-      <View style={{flex:1}}>
+      <View>
             <Image source={require('src/images/jayesh.jpeg')} style={{alignItems: 'flex-start', height:19, width:19, borderRadius:6}} />
             <Text style={{color:'white', fontSize: 19, padding: 13}}> Jayesh Nahar </Text>
             <TouchableOpacity onPress={this.dialCallJ} activeOpacity={0.7} style={{alignItems: 'flex-end'}} >
             <Image source={require('src/images/dialer_app_2019-08-04/dialer_app.png')} style={{ height:19, width:19, borderRadius:6}}/>
             </TouchableOpacity>
       </View>
-      <View style={{flex:1}}>
+      <View>
             <Image source={require('src/images/job.jpeg')} style={{alignItems: 'flex-start', height:19, width:19, borderRadius:6}} />
             <Text style={{color:'white', fontSize: 19, padding: 13}}>  J Job Joseph </Text>
             <TouchableOpacity onPress={this.dialCallJob} activeOpacity={0.7} style={{alignItems: 'flex-end'}} >
             <Image source={require('src/images/dialer_app_2019-08-04/dialer_app.png')} style={{ height:19, width:19, borderRadius:6}} />
             </TouchableOpacity>
       </View>
-      <View style={{flex:1}}>
+      <View>
             <Image source={require('src/images/siddarth.JPG')} style={{alignItems: 'flex-start', height:19, width:19, borderRadius:6}} />
             <Text style={{color:'white', fontSize: 19, padding: 13}}> Siddhart Athreyas </Text>
             <TouchableOpacity onPress={this.dialCallS} activeOpacity={0.7} style={{alignItems: 'flex-end'}} >
             <Image source={require('src/images/dialer_app_2019-08-04/dialer_app.png')} style={{ height:19, width:19, borderRadius:6}} />
             </TouchableOpacity>
       </View>
-      <View style={{flex:1}}>
+      <View>
             <Image source={require('src/images/tejus.jpg')} style={{alignItems: 'flex-start', height:19, width:19, borderRadius:6}} />
             <Text style={{color:'white', fontSize: 19, padding: 13}}> Tejus Gowdar </Text>
             <TouchableOpacity onPress={this.dialCallT} activeOpacity={0.7} style={{alignItems: 'flex-end'}} >
             <Image source={require('src/images/dialer_app_2019-08-04/dialer_app.png')} style={{ height:19, width:19, borderRadius:6}} />
             </TouchableOpacity>
+      </View>
       </View>
    </Fragment>
     );

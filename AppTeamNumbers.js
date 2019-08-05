@@ -39,6 +39,11 @@ export default class AppTeamNumbers extends Component {
   render() {
     return (
      <Fragment>
+        <View style={{
+         backgroundColor:'#213368',
+         borderRadius: 10,
+         padding:15
+       }}>
         <View>
             <Image source={require('src/images/prajwal.jpeg')} style={{alignItems: 'flex-start', height:19, width:19, borderRadius:6}} />
             <Text style={{color:'white', fontSize: 19, padding: 13}}> Prajwal</Text>
@@ -52,6 +57,7 @@ export default class AppTeamNumbers extends Component {
             <TouchableOpacity onPress={this.dialCallN} activeOpacity={0.7} style={{alignItems: 'flex-end'}} >
             <Image source={require('src/images/dialer_app_2019-08-04/dialer_app.png')} />
             </TouchableOpacity>
+      </View>
       </View>
    </Fragment>
     );
