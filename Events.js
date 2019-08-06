@@ -10,7 +10,7 @@ import {
   ImageBackground
 } from 'react-native';
 
-export default class App extends React.Component {
+export default class Events extends React.Component {
   render() {
     return (
       <Fragment>
